@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_first"
+        android:icon="@drawable/ic_navi_icon1"
+        android:title="홈"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_second"
+        android:icon="@drawable/ic_navi_icon2"
+        android:title="NEW &amp; HOT"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_third"
+        android:icon="@drawable/ic_navi_icon3"
+        android:title="검색"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_fourth"
+        android:icon="@drawable/ic_navi_icon4"
+        android:title="저장한 콘텐츠 목록"
+        app:showAsAction="ifRoom" />
+</menu>

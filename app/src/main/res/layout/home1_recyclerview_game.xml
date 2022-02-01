@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparency"
+    android:paddingLeft="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/game_image1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedSqure" />
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:hint="넷플릭스 게임"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textSize="14dp"
+            app:layout_constraintLeft_toLeftOf="@+id/game_image"
+            app:layout_constraintTop_toBottomOf="@+id/game_image" />
+
+        <TextView
+            android:id="@+id/game_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:hint="카테고리"
+            android:paddingTop="1dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            android:textSize="14dp"
+            app:layout_constraintLeft_toLeftOf="@+id/game_image"
+            app:layout_constraintTop_toBottomOf="@+id/game_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

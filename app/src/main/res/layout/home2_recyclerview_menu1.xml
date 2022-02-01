@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/home2_menu1_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:hint="1월"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            android:textSize="12dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/home2_menu1_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:hint="28"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_month" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/home2_menu1_image"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/home2_menu1_image1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedSqure" />
+
+        <ImageView
+            android:id="@+id/home2_menu1_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/home2_menu1_image2"
+            app:layout_constraintLeft_toLeftOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_image"/>
+        <ImageView
+            android:id="@+id/home2_menu1_image_info"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_home_middle_icon3"
+            app:layout_constraintRight_toRightOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_image"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_image2"/>
+
+        <ImageView
+            android:id="@+id/home2_menu1_bell"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_icon_bell"
+            app:layout_constraintRight_toLeftOf="@+id/home2_menu1_image_info"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_image"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_image2"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_openday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:hint="금요일 시즌 1 공개"
+            android:textColor="@color/gray_light"
+            android:textColorHint="@color/gray_light"
+            android:textSize="14dp"
+            android:paddingTop="10dp"
+            app:layout_constraintLeft_toLeftOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_image2" />
+
+
+        <ImageView
+            android:id="@+id/home2_menu1_netflix_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_home_logo"
+            app:layout_constraintLeft_toLeftOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_openday"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_netflix_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="시리즈"
+            android:paddingTop="1dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            android:textSize="8dp"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_netflix_logo"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_netflix_logo"
+            app:layout_constraintTop_toTopOf="@+id/home2_menu1_netflix_logo" />
+
+        <TextView
+            android:id="@+id/home2_menu1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="지금 우리 학교는"
+            android:paddingTop="1dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="17dp"
+            app:layout_constraintLeft_toLeftOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_netflix_logo" />
+        <TextView
+            android:id="@+id/home2_menu1_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansmedium"
+            android:text="좀비 바이러스 발생의 시발점이 된 고등학교."
+            android:paddingTop="5dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:paddingBottom="5dp"
+            android:textSize="12dp"
+            app:layout_constraintLeft_toLeftOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_name" />
+
+        <ImageView
+            android:id="@+id/home2_menu1_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:paddingTop="1dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_icon_dot"
+            app:layout_constraintLeft_toLeftOf="@+id/home2_menu1_image"
+            app:layout_constraintTop_toTopOf="@+id/home2_menu1_tag1"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_tag1"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_tag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="섬뜩한"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_dot"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_des" />
+
+        <ImageView
+            android:id="@+id/home2_menu1_dot2"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:paddingTop="1dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_icon_dot"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_tag1"
+            app:layout_constraintTop_toTopOf="@+id/home2_menu1_tag1"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_tag1"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_tag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="피로 물든"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_dot2"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_des" />
+
+        <ImageView
+            android:id="@+id/home2_menu1_dot3"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:paddingTop="1dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_icon_dot"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_tag2"
+            app:layout_constraintTop_toTopOf="@+id/home2_menu1_tag1"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_tag1"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_tag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="공포"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_dot3"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_des" />
+
+        <ImageView
+            android:id="@+id/home2_menu1_dot4"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:paddingTop="1dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_icon_dot"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_tag3"
+            app:layout_constraintTop_toTopOf="@+id/home2_menu1_tag1"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_tag1"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_tag4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="스릴러"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_dot4"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_des" />
+
+
+        <ImageView
+            android:id="@+id/home2_menu1_dot5"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:paddingTop="1dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_icon_dot"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_tag4"
+            app:layout_constraintTop_toTopOf="@+id/home2_menu1_tag1"
+            app:layout_constraintBottom_toBottomOf="@+id/home2_menu1_tag1"/>
+
+        <TextView
+            android:id="@+id/home2_menu1_tag5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="스릴러"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            app:layout_constraintLeft_toRightOf="@+id/home2_menu1_dot5"
+            app:layout_constraintTop_toBottomOf="@+id/home2_menu1_des" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

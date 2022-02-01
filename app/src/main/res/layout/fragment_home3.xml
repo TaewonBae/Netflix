@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment3"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MaterialSearchBarLight"
+            app:mt_hint="검색"
+            app:mt_placeholder="검색"
+            app:mt_placeholderColor="@color/gray"
+            app:mt_maxSuggestionsCount="10"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/corner_radius3"
+            app:mt_searchBarColor="@color/gray_login_bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:mt_searchIconDrawable="@drawable/ic_search_icon"
+            app:mt_searchIconTint="@color/gray"
+            android:gravity="center"
+            app:mt_textColor="@color/white"
+            app:mt_textCursorTint="@color/iphone_blue"
+            app:mt_highlightedTextColor="@color/iphone_blue2"
+            app:mt_backIconDrawable="@drawable/ic_search_icon"
+            app:mt_backIconTint="@color/gray"
+            app:mt_clearIconTint="@color/white"
+            app:mt_dividerColor="@color/transparency"
+            app:mt_menuDividerEnabled="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:text="최다 검색"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home3_search_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".LoginSelectProfileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/login_sp_clayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/login_sp_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansmedium"
+            android:gravity="center"
+            android:text="Netflix를 시청할 프로필을 선택하세요."
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/login_sp_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:gravity="center"
+            android:text="변경"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/login_sp_clayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/login_sp_std"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/sp_profile1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/profile1"
+            app:layout_constraintRight_toLeftOf="@+id/login_sp_std"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/sp_profile2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/profile2"
+            app:layout_constraintLeft_toRightOf="@+id/login_sp_std"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/profile1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/netflixsansbold"
+            android:gravity="center"
+            android:text="배태원"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/sp_profile1"
+            app:layout_constraintStart_toStartOf="@+id/sp_profile1"
+            app:layout_constraintTop_toBottomOf="@+id/sp_profile1" />
+
+
+        <TextView
+            android:id="@+id/profile2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/netflixsansbold"
+            android:gravity="center"
+            android:text="한상욱"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/sp_profile2"
+            app:layout_constraintStart_toStartOf="@+id/sp_profile2"
+            app:layout_constraintTop_toBottomOf="@+id/sp_profile2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/login_sp_clayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/login_sp_std2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/sp_profile3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/profile3"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintRight_toLeftOf="@+id/login_sp_std2"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/sp_profile4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/profile4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintLeft_toRightOf="@+id/login_sp_std2"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/profile3_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:gravity="center"
+            android:text="백한결"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="@+id/sp_profile3"
+            app:layout_constraintEnd_toEndOf="@+id/sp_profile3"
+            app:layout_constraintTop_toBottomOf="@+id/sp_profile3" />
+
+
+        <TextView
+            android:id="@+id/profile4_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:gravity="center"
+            android:text="박지용"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="@+id/sp_profile4"
+            app:layout_constraintEnd_toEndOf="@+id/sp_profile4"
+            app:layout_constraintTop_toBottomOf="@+id/sp_profile4" />
+
+        <ImageView
+            android:id="@+id/sp_profile5"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/profile5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile3_name"/>
+
+        <TextView
+            android:id="@+id/profile5_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:gravity="center"
+            android:text="키즈"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="@+id/sp_profile5"
+            app:layout_constraintEnd_toEndOf="@+id/sp_profile5"
+            app:layout_constraintTop_toBottomOf="@+id/sp_profile5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

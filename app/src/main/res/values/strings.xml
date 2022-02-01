@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--인트로 텍스트-->
+    <string name="intro1_text1">넷플릭스에 가입하고\n싶으신가요?</string>
+    <string name="intro1_text2">앱 내에서는 넷플릭스에 가입할 수\n없습니다. 번거로우시겠지만, 앱을 통한\n시청은 회원 가입 후 가능합니다.</string>
+    <string name="intro2_text1">결제는 한 번,\n디바이스는 무제한</string>
+    <string name="intro2_text2">스마트폰, 노트북, TV, 테블릿.\n디바이스가 아무리 많아도 결제는 한\n번뿐!</string>
+    <string name="intro3_text1">3, 2, 1 ... 저장 시작!</string>
+    <string name="intro3_text2">미리 저장해놓으면 오프라인에서도\n지루할 틈이 없습니다.</string>
+    <string name="intro4_text1">약정도 광고도 없다</string>
+    <string name="intro4_text2">멤버십은 언제든지 해지하실 수\n있습니다.</string>
+
+    <string name="intro_cs_text1">자주 묻는 질문 찾아보기</string>
+    <string name="intro_cs_text2">찾아주셔서 감사합니다.</string>
+    <string name="intro_cs_text3">앱 내에서는 넷플릭스에 가입할 수 없습니다.\n번거로우시겠지만, 회원 가입 완료 후 앱을 통해 시리즈와\n영화를 시청하세요.</string>
+    <string name="intro_cs_text4">이미 회원이신가요?</string>
+    <string name="intro_cs_text5">Netflix 고객 센터 문의</string>
+    <string name="intro_cs_text6">온라인 통화로 상담원과 연결해 드리겠습니다.</string>
+
+    <string name="intro_info_text1">개인정보 처리방침</string>
+    <string name="intro_info_text2">본 개인정보 처리방침에서는 Netflix 서비스와
+        \n관련해 회원의 개인정보를 포함한 특정 정보 수집,
+        \n이용 및 공개와 관련된 Netflix의 관행과 귀하의
+        \n선택권에 관해 설명합니다.</string>
+    <string name="intro_info_text3">Netflix 연락 방법</string>
+    <string name="intro_info_text4">계정 또는 고객 센터 문의 방법과 관련해 질문이
+        \n있는 경우 help.netflix.com에 접속해 Netflix
+        \n온라인 고객 센터를 방문하시기 바랍니다.
+        \n본 개인정보 처리방침에 대한 질문이나 Netflix의
+        \n회원 개인정보, 쿠키 또는 유사 기술 이용에 관해
+        \n질문이 있는 경우 개인정보 보호실(Privacy Office/Data Protection Office)에 이메일(privacy@netflix.com)로 문의하시기 바랍니다.</string>
+    <string name="intro_info_text5">회원의 개인정보 데이터를 관리하는 업체는
+        \n넷플릭스서비시스코리아 유한회사입니다. 회원이
+        \nNetflix에 도움을 요청하는 경우, 요청 사항을
+        \n해결하기에 앞서 회원 및 Netflix의 안전을 위해
+        \n신원 확인을 요구할 수도 있음을 참고해 주시기
+        \n바랍니다.</string>
+
+    <string name="intro_info_text6">정보 수집</string>
+    <string name="intro_info_text7">Netflix는 다음과 같은 회원 정보를 수신 및 보관합니다.</string>
+    <string name="intro_info_text8">● 회원이 Netflix에 제공하는 정보 :</string>
+    <string name="intro_info_text9">Netflix는 다음 정보를 포함해 회원이 Netflix에 제공하는 정보를 수집합니다.</string>
+    <string name="intro_info_text10">○ 회원의 이름, 이메일 주소, 결제 수단, 전화번호 및 회원이 사용하는 기타 개인 식별 정보(게임 내 이름 등). Netflix는 회원이 Netflix 서비스 이용 과정에서 정보를 입력하는 경우, 고객 센터와 상담하는 경우 또는 설문 조사나 마케팅 프로모션에 참여하는 경우 등 다양한 방식을 통해 이러한 정보를 수집합니다.</string>
+    <string name="intro_info_text11">○ 회원이 평가, 선호분야 설정, 계정 설정(웹사이트의 계정 섹션에 설정된 환경 설정 포함) 시 입력하는 정보 또는 Netflix 서비스나 타사를 통해 Netflix에 제공하는 정보.</string>
+
+    <string name="login_email">이메일 주소 또는 전화번호</string>
+    <string name="login_password">비밀번호</string>
+    <string name="login_password_reset">비밀번호 재설정</string>
+    <string name="login_text1">로그인 시 Google reCAPTCHA를 이용해 사용자가</string>
+    <string name="login_text2">로봇이 아님을 확인합니다.</string>
+    <string name="login_text3">자세히 알아보기</string>
+
+    <string name="home_game_text">광고도, 추가 요금도, 인 앱 구매도\n없습니다. 기존 멤버십으로\n넷플릭스만의 게임을 무제한으로\n즐겨보세요.</string>
+    <string name="home_device_text">스마트 TV, 스트리밍 디바이스, iPhone 또는 iPad가 모두\n같은 WiFi 네트워크를 사용하는지 확인하세요. 도움이 필요한\n경우, 넷플릭스 고객 센터를 찾아주세요.</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="horizontal"
+   >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/home3_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+         android:layout_marginLeft="2dp"
+            android:src="@drawable/home2_menu1_image1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedSqure" />
+        <TextView
+            android:id="@+id/home3_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netflixsansbold"
+            android:text="그 해 우리는"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="14dp"
+            app:layout_constraintLeft_toRightOf="@+id/home3_image"
+            app:layout_constraintTop_toTopOf="@+id/home3_image"
+            app:layout_constraintBottom_toBottomOf="@+id/home3_image"
+            android:paddingLeft="10dp"/>
+        <ImageView
+            android:id="@+id/home3_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icon_play2"
+            app:layout_constraintTop_toTopOf="@+id/home3_image"
+            app:layout_constraintBottom_toBottomOf="@+id/home3_image"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="30dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
