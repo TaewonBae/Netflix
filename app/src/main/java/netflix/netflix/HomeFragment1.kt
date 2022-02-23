@@ -38,7 +38,7 @@ class HomeFragment1 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //Category 다이얼로그11
+        //Category 다이얼로그1
         home_top_menu3.setOnClickListener {
             val dialogCategoryFragment = DialogCategoryFragment()
             dialogCategoryFragment.show(childFragmentManager, dialogCategoryFragment.tag)
