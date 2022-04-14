@@ -1,4 +1,4 @@
-# Netflix111
+# Netflix
 2022.1.10~2022.2.02 Android Studio (Kotlin) - Netflix
 
 ### Splash / Intro / Login
