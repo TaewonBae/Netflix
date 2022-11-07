@@ -1,4 +1,4 @@
-## Netflix
+# Netflix
 ### Netflix - 2022.1.10~2022.2.02 Android Studio (Kotlin) 
 ***
 넷플릭스 프로젝트/Kotlin, DB Browser, Firebase(Firebase, Database, YouTube API를 이용한 Netflix)
